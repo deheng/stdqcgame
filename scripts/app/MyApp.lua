@@ -1,3 +1,10 @@
+-- -------------------------------------------------------------------------
+--  文件名     ：   LoadGameScene.lua
+--  创建者     ：   Sundyhy
+--  创建时间    ：  2013/12/6 15:35:55
+--  功能描述    ：  加载游戏界面
+--
+-- -----------------------------------------------------------------------*/
 
 require("config")
 require("framework.init")
@@ -12,7 +19,7 @@ end
 
 function MyApp:run()
     CCFileUtils:sharedFileUtils():addSearchPath("res/")
-    self:enterScene("MainScene")
+    self:enterScene("MainMenuScene")
 end
 
 return MyApp
